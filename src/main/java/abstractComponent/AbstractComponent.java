@@ -34,6 +34,7 @@ public class AbstractComponent {
 	}
 	public void waitForElementToDisappear(WebElement ele) throws InterruptedException {
 		Thread.sleep(2000);
+		System.out.println("Running from Git");
 		//WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(3));
 		//wait.until(ExpectedConditions.invisibilityOf(ele));
 	}
