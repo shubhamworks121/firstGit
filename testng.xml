@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+        <class name="learningAutomation.pageElements.standAlone2"/>
+    </classes>
+  </test>
+    <test thread-count="5" name="Error Validation">
+    <classes>
+        <class name="learningAutomation.pageElements.ErrorValidationTest"/>
+    </classes>
+  </test> 
+    <test thread-count="5" name="Test">
+    <classes>
+        <class name="learningAutomation.pageElements.ErrorValidation"/>
+    </classes>
+  </test>  
+</suite> 
